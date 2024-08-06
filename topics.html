@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="header">
+        <div class="logo">logoHere</div>
+        <div class="nav-list">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="topics.html" class="active">Topics</a></li>
+                <li><a href="featured.html">Featured Posts</a></li>
+                <li><a href="recentpost.html">Recent Post</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </div>
+        <a href="#contact"><button class="btn">Subscribe</button></a>
+        <i class="fa-solid fa-ellipsis-vertical toggle-bar"></i>
+        <!-- <i class="fa-light fa-bars "></i> -->
+    </nav>
+    <section class="topics" id="topics">
+        <div class="topic-container">
+            <div class="card">
+                <div class="card-content">
+                    <h1>Hot Topics</h1>
+                    <p>Don't miss out on the latest news about Travel tips, Hotels review, Food guide...</p>
+                    <button onclick="goRight()"><a href=""></a><i class="fa-solid fa-arrow-right"></i></a></button>
+                    <button onclick="goleft()"><a href=""></a><i class="fa-solid fa-arrow-left"></i></a></button>
+                </div>
+                <div class="slider">
+                    <div class="slider-image">
+                        <div class="slide">
+                            <img src="topic-1.png" alt="" class="images">
+                        </div>
+                        <div class="slide">
+                            <img src="topic-2.png" alt="" class="images">
+                        </div>
+                        <div class="slide">
+                            <img src="topic-3.png" alt="" class="images">
+                        </div>
+                        <div class="slide">
+                            <img src="topic-4.png" alt="" class="images">
+                        </div>
+                        <div class="slide">
+                            <img src="topic-5.png" alt="" class="images">
+                        </div>
+                    </div>
+                </div>
+      
+            </div>
+        </div>
+    </section>
+    <section class="topics" id="contact">
+        <div class="topic-container">
+            <div class="cards">
+                <div class="company">
+                    <div class="company-logo">
+                        logoHere
+                    </div>
+                    <p>When an unknown prnoto sans took a galley and scrambled it to make specimen book not only five
+                        When an unknown prnoto sans took a galley and scrambled it to five centurie.</p>
+                    <div class="address">
+                        <h1>Address</h1>
+                        <h4>123 Main Street</h4>
+                        <h4>New York, NY 10001</h4>
+                    </div>
+                </div>
+                <div class="category">
+                    <h1>Categories</h1>
+                    <div class="left-right">
+                        <div class="left">
+                            <h2><a href="">Action</a></h2>
+                            <h2><a href="">Business</a></h2>
+                            <h2><a href="">Adeventure</a></h2>
+                            <h2><a href="">Canada</a></h2>
+                            <h2><a href="">America</a></h2>
+                            <h2><a href="">Curiosity</a></h2>
+                        </div>
+                        <div class="right">
+                            <h2><a href="">Animal</a></h2>
+                            <h2><a href="">Dental</a></h2>
+                            <h2><a href="">Biology</a></h2>
+                            <h2><a href="">Design</a></h2>
+                            <h2><a href="">Breakfast</a></h2>
+                            <h2><a href="">Dessert</a></h2>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="newsletter">
+                    <h1>NewsLetter</h1>
+                    <p>Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.</p>
+                    <i class="fa-regular fa-user"></i><input type="text" placeholder="Enter Your Name" class="name"><br>
+                    <i class="fa-regular fa-envelope"></i><input type="text" placeholder="Enter you Email" class="Email"><br>
+                    <input type="submit" value="Subscribe" class="btn">
+                </div>
+            </div>
+            <hr>
+            <div class="footer">
+                <div class="footer-text">
+                <h2>© Developed by G.M Koondhar</h2>
+            </div>
+            <div class="footer-social">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+                <i class="fa-brands fa-facebook"></i> Facebook
+                <i class="fa-brands fa-github"></i> Github
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+<!-- <script src="script.js"></script> -->
+</html>
